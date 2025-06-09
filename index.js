@@ -6,7 +6,7 @@ const pool = require('./db');
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5500', 'https://bintangfirdauss.github.io/SpatiaLand/'],
+  origin: ['https://bintangfirdauss.github.io'],
   credentials: true
 }));
 
